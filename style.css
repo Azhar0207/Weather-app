@@ -78,13 +78,31 @@ body {
   font-weight: 300;
 }
 
+
 .weather-col {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
 }
 
 .weather-col .col img {
   width: 50px;
-  color: #fff;
+  margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 25px;
+    margin-top: -6px;
+}
+
+.col .text{
+    font-size: 15px;
 }
